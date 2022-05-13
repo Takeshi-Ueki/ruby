@@ -5,6 +5,6 @@ file = File.open(filename)
 file.each_line do |line|
   if pattern =~ line
     print line
-  endr
+  end
 end
 file.close
